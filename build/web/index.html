@@ -1,0 +1,27 @@
+
+<html>
+    <head>
+        <title>Evaluado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Calculo de Precios</h1>
+        <form name="frmOperaciones" action="ServletOperaciones" method="post">
+            <br>
+            Cantidad: <input type="text" name="txtCantidad" value="" />
+            <br>
+            Precio: <input type="text" name="txtPrecio" value="" />
+            <br>
+            Tipo de Pago:
+            <select name="cmbTipoPago">
+                <option value="0">-- Seleccione --</option>
+                <option value="1">Contado</option>
+                <option value="2">Tarjeta</option>
+        
+            </select>
+            <br>
+            <input type="submit" value="Calcular" name="btnCalcular" />
+        </form>
+    </body>
+</html>
